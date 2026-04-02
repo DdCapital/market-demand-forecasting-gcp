@@ -5,6 +5,9 @@ This project builds a cloud-based data analytics and forecasting pipeline using 
 
 The goal is to support data-driven decision-making by identifying sales trends, seasonality, and regional patterns.
 
+Built an end-to-end cloud-based data pipeline integrating Google Cloud Storage, BigQuery, BigQuery ML, and Looker Studio for scalable data processing, modeling, and visualization.
+
+
 ---
 ## My Contribution
 
@@ -58,6 +61,15 @@ Other team member contributions included historical data preparation， initial 
 
 ### 7. Forecasting
 - Generated 12-month future demand predictions
+
+---
+
+## Results
+
+- Achieved a Mean Absolute Percentage Error (MAPE) of 1.68% on evaluation data, indicating high forecasting accuracy
+- Improved model performance by incorporating holiday effects as an external regressor (XREG)
+- Identified strong seasonal sales patterns, with significant increases during holiday periods
+- Enabled interactive exploration of forecasted vs actual sales through Looker Studio dashboards
 
 ---
 
